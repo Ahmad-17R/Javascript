@@ -1,0 +1,25 @@
+div {
+    display: flex; /* Use flexbox layout */
+    align-items: center; /* Align items vertically centered */
+}
+
+.input {
+    margin-right: 10px; /* Add some spacing between the children */
+}
+.button {
+    /* Your CSS styles for the button go here */
+    background-color: #007bff; /* Blue background color */
+    color: #fff; /* White text color */
+    border: none; /* No border */
+    padding: 8px 16px; /* Padding around the text */
+    border-radius: 4px; /* Rounded corners */
+    cursor: pointer; /* Show pointer cursor on hover */
+}
+
+.button:hover {
+    background-color: #0056b3; /* Darker blue on hover */
+}
+
+li{
+    margin-top: 5px;
+}
